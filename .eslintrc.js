@@ -23,6 +23,7 @@ module.exports = {
     'max-lines-per-function': ['error', { max: 75, skipComments: true }],
     'no-underscore-dangle': 0,
     'react/jsx-props-no-spreading': 0,
+<<<<<<< HEAD
     'react/prop-types': 0,
     'prettier/prettier': [
       'error',
@@ -30,5 +31,8 @@ module.exports = {
         endOfLine: 'auto'
       }
     ]
+=======
+    'react/prop-types': 0
+>>>>>>> 9c2444b0375677c7d5bab13e6cc9cc88e74c209b
   }
 };

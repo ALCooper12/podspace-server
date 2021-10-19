@@ -38,7 +38,6 @@ const authCodeSchema: Schema<AuthCodeDocument> = new Schema<AuthCodeDocument>(
 /**
  * Code here will delete every document in the "AuthCode"
  * collection after 5 minutes (60 seconds * 5)
- * https://stackoverflow.com/questions/28139638/how-can-you-remove-all-documents-from-a-collection-with-mongoose
  * */
 authCodeSchema.index({ createdAt: 1 }, { expireAfterSeconds: 60 * 5 });
 
